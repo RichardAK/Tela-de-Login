@@ -1,0 +1,47 @@
+.Formulario-cadastro{
+    background-color: #d9b1d9 ;
+    display: flex;
+    flex-flow: column;
+    width: 359px;
+    border-radius: 20px;
+}
+
+label{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Cadastrar{
+
+    height: 90%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+input, select{
+    background-color:#7f077e ;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid black 2px;
+    display: block;
+    align-self: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body{
+    height: 100vh;
+    margin: 0vh;
+    background-color: #280025;
+}

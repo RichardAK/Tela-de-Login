@@ -1,0 +1,67 @@
+body{
+    height: 100vh;
+    margin: 0vh;
+    background-color: #280025;
+}
+
+.questionario{
+    height: 90%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.formulario{
+    background-color: #d9b1d9 ;
+    display: flex;
+    flex-flow: column;
+    width: 359px;
+    border-radius: 20px;
+
+}
+
+#imagem{
+    width: 600px;
+}
+
+
+label{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size:17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input, select{
+    background-color:#7f077e ;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid black 2px;
+    display: block;
+    align-self: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#enviar{
+    background: #7f077e;
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    display: block;
+    align-self: center;
+}
+
+

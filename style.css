@@ -12,16 +12,20 @@ body{
     margin: auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
     
 }
 
 .formulario{
     background-color: #d9b1d9 ;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
     display: flex;
     flex-flow: column;
-    width: 359px;
-    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -31,7 +35,7 @@ body{
 
 
 label{
-    margin: 5px;
+    margin: 15px;
     display: flex;
     justify-content: center;
     color: black;
@@ -53,14 +57,37 @@ input, select{
     font-weight: bold;
 }
 
-#enviar{
+.botao{
     background: #7f077e;
-    width: 80px;
-    height: 60px;
+    width: 100px;
+    height: 50px;
     border-radius: 10px;
-    margin-top: 3px;
+    margin-top: 20px;
     margin-bottom: 10px;
     display: block;
     align-self: center;
+    cursor: pointer;
 }
 
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid black;
+    display: contents;
+    align-items: center;
+    
+ 
+
+}
+.butao{
+    background: #7f077e;
+    width: 100px;
+    height: 47px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+ 
+
+}
